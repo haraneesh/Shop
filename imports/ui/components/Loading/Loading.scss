@@ -1,0 +1,22 @@
+@import '../../stylesheets/bootstrap/bootstrap/variables';
+
+.Loader {
+  height: 3px;
+  width: 100%;
+  overflow: hidden;
+  background-color: $brand-success;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+
+.Loader:before{
+  display: block;
+  position: absolute;
+  content: "";
+  left: -200px;
+  width:  200%;
+  height: 3px;
+  background-color:$progress-bg;
+  animation: loading 4s linear infinite;
+}

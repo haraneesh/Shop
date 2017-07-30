@@ -1,0 +1,9 @@
+node_modules
+settings-demo.json
+settings-staging.json
+settings-production.json
+settings-development.json
+public/bg-new.jpg
+.meteor/.gitignore
+public/favicon-new.png
+public/logo-new.png
